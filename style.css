@@ -1,0 +1,131 @@
+/* Reset some basic elements */ body, h1, h2, h3, p, ul, ol, li, table {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+} /*
+Body and page setup */
+body {
+  font-size: 12pt;
+  line-height: 1.5;
+  color: #333;
+} /* Headings */
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+h1 {
+  font-size: 24pt;
+  margin-bottom: 0.5em;
+}
+h2 {
+  font-size: 18pt;
+  margin-bottom: 0.5em;
+}
+h3 {
+  font-size: 14pt;
+  margin-bottom: 0.5em;
+} /* Paragraph */
+p {
+  margin-bottom: 1em;
+} /* Lists */
+ul,
+ol {
+  margin-bottom: 1em;
+  padding-left: 20pt;
+}
+li {
+  margin-bottom: 0.5em;
+} /* Links */
+a {
+  color: #0000ee;
+  text-decoration: underline;
+} /* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+} /* Page Breaks */
+.break-before {
+  page-break-before: always;
+}
+.break-after {
+  page-break-after: always;
+} /* Custom classes for margins
+*/
+.margin-top {
+  margin-top: 20pt;
+}
+.margin-bottom {
+  margin-bottom: 20pt;
+}
+.abbrivation-table,
+.subject-table,
+.attendance-table {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex;
+  align-items: center;
+}
+.abbrivation-table {
+  justify-content: center;
+}
+.subject-table {
+  justify-content: start;
+}
+.attendance-table {
+  justify-content: center;
+}
+.hr {
+  margin-top: -1px;
+}
+.w-30px {
+  width: 80px !important;
+}
+.bottom-fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 9999;
+}
+.margin-leftright {
+  margin-right: 23px;
+}
+.mt-8px {
+  margin-top: 8px;
+}
+.ml-1px {
+  margin-left: 1px;
+} /*class*/
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-3 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
